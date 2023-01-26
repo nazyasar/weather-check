@@ -5,6 +5,7 @@ body {
     height: 100vh;
     margin: 0px;
     font-family: 'Sora', sans-serif;
+    font-size: 120%;
     background: #d74949;
     background-image: url('https://source.unsplash.com/2000x1000/?landscape');
 }
@@ -22,6 +23,47 @@ body {
 .search {
     display: flex;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center;    
 }
+
+button {
+    margin: 0.5em;
+    border-radius: 40%;
+    border: none;
+    width: 2.5em;
+    height: 2.5em;
+    outline: none;
+    background-color: #5c5555d0;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+button:hover {
+    background: rgb(107, 106, 106);
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.6em 2em;
+    border-radius: 18px;
+    background-color: #5c5555d0;
+    color: white;
+    font-family: 'Sora', sans-serif;
+}
+
+h1.temp {
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+
+.description {
+    text-transform: capitalize;
+}
+
+.weather.loading {
+    visibility: hidden;
+}
+
