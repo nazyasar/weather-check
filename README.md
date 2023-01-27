@@ -3,6 +3,7 @@ This website allows you to easily check the current weather for any location in 
 
 ### Getting Started
 To get started, simply enter the name of the location you would like to check the weather for in the search bar on the homepage.
+- Default city is Istanbul.
 
 ### Features
 Get the current weather conditions, including temperature, humidity, and wind speed.
