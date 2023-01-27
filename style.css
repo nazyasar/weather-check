@@ -8,6 +8,7 @@ body {
     font-size: 120%;
     background: #d74949;
     background-image: url('https://source.unsplash.com/2000x1000/?landscape');
+    background-size: 100% 100%;
 }
 
 .card {
