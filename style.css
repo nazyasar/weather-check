@@ -1,70 +1,24 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0px;
-    font-family: 'Sora', sans-serif;
-    font-size: 120%;
-    background: #d74949;
-    background-image: url('https://source.unsplash.com/2000x1000/?landscape');
-    background-size: 100% 100%;
+* {
+	box-sizing: border-box;
+	margin: 0;
 }
 
-.card {
-    background: #000000d0;
-    color: white;
-    padding: 2em;
-    border-radius: 40px;
-    width: 100%;
-    max-width: 420px;
-    margin: 1em;
+header {
+	text-align: center;
+	color: rgb(12, 12, 12);
+	padding: 20px;
+	background-color: rgb(54, 227, 227);
 }
 
-.search {
-    display: flex;
-    align-items: center;
-    justify-content: center;    
+#city-info {
+	margin: 10px;
 }
 
-button {
-    margin: 0.5em;
-    border-radius: 40%;
-    border: none;
-    width: 2.5em;
-    height: 2.5em;
-    outline: none;
-    background-color: #5c5555d0;
-    color: white;
-    cursor: pointer;
-    transition: 0.2s ease-in-out;
+.sidebar {
+	background-color: rgb(54, 227, 227);
+	padding: 10px;
 }
 
-button:hover {
-    background: rgb(107, 106, 106);
+.daycard {
+	margin: 10px;
 }
-
-input.search-bar {
-    border: none;
-    outline: none;
-    padding: 0.6em 2em;
-    border-radius: 18px;
-    background-color: #5c5555d0;
-    color: white;
-    font-family: 'Sora', sans-serif;
-}
-
-h1.temp {
-    margin: 0;
-    margin-bottom: 10px;
-
-}
-
-.description {
-    text-transform: capitalize;
-}
-
-.weather.loading {
-    visibility: hidden;
-}
-
